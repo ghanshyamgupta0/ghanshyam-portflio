@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Copywriting Services | Ghanshyam</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/copy-writing.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">Ghanshyam.</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#projects">Projects</a>
+      <a href="index.html#contact">Contact</a>
+    </div>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <h1>Copywriting Services</h1>
+    <p>Transform your message into compelling content that connects with your audience.</p>
+  </section>
+
+  <section class="services">
+    <h2>What I Offer</h2>
+    <ul>
+      <li>
+        <strong>Website Copy</strong>
+        Engaging content for landing pages, about pages, and more that converts visitors into customers.
+      </li>
+      <li>
+        <strong>Blog Writing</strong>
+        SEO-optimized and informative blog posts that drive traffic and establish your authority.
+      </li>
+      <li>
+        <strong>Product Descriptions</strong>
+        High-converting product content that highlights features and benefits for eCommerce websites.
+      </li>
+      <li>
+        <strong>Email Campaigns</strong>
+        Effective email sequences that increase engagement and drive sales.
+      </li>
+      <li>
+        <strong>Ad Copy</strong>
+        Persuasive copy for Google, Facebook, and Instagram ads that gets clicks and conversions.
+      </li>
+    </ul>
+  </section>
+
+  <section class="process">
+    <h2>My Writing Process</h2>
+    <div class="process-steps">
+      <div class="step">
+        <i class="fas fa-comments"></i>
+        <h3>Discovery</h3>
+        <p>Understanding your brand, audience, and goals through detailed consultation.</p>
+      </div>
+      <div class="step">
+        <i class="fas fa-pen-fancy"></i>
+        <h3>Research</h3>
+        <p>Analyzing your market, competitors, and target audience for insights.</p>
+      </div>
+      <div class="step">
+        <i class="fas fa-edit"></i>
+        <h3>Writing</h3>
+        <p>Creating compelling content that aligns with your brand voice and objectives.</p>
+      </div>
+      <div class="step">
+        <i class="fas fa-check-circle"></i>
+        <h3>Refinement</h3>
+        <p>Polishing the content through revisions and optimization for maximum impact.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="why-me">
+    <h2>Why Work With Me?</h2>
+    <ul>
+      <li>Clear, compelling copy tailored to your brand voice and target audience</li>
+      <li>SEO-focused writing that helps boost your search engine rankings</li>
+      <li>Quick turnaround times without compromising on quality</li>
+      <li>Professional communication and reliable delivery</li>
+      <li>Data-driven approach to content optimization</li>
+    </ul>
+  </section>
+
+  <section class="cta">
+    <h2>Ready to Elevate Your Content?</h2>
+    <a href="index.html#contact" class="btn">Let's Work Together</a>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 Ghanshyam. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!hamburger.contains(e.target) && !navLinks.contains(e.target)) {
+        navLinks.classList.remove('active');
+      }
+    });
+  </script>
+</body>
+</html>

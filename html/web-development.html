@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Web Development Services | Ghanshyam</title>
+  <link rel="stylesheet" href="../css/web-development.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">Ghanshyam.</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#projects">Projects</a>
+      <a href="index.html#contact">Contact</a>
+    </div>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <h1>Web Development Services</h1>
+    <p>I build fast, responsive, and scalable websites tailored to your needs.</p>
+  </section>
+
+  <section class="services">
+    <h2>What I Can Do for You</h2>
+    <ul>
+      <li><strong>Portfolio Websites</strong> – Personal branding sites to showcase work.</li>
+      <li><strong>Business Websites</strong> – Company pages with contact forms and service details.</li>
+      <li><strong>eCommerce Sites</strong> – Product listings, carts, and checkout functionality.</li>
+      <li><strong>Landing Pages</strong> – Marketing-focused pages for promotions or products.</li>
+      <li><strong>Custom Frontend UI</strong> – Interactive, responsive designs with HTML, CSS, JS.</li>
+      <li><strong>Laravel Backend</strong> – Admin panels, login systems, APIs, and more.</li>
+    </ul>
+  </section>
+
+  <section class="tech-stack">
+    <h2>Technologies I Use</h2>
+    <div class="tech-grid">
+      <div class="tech-item">
+        <i class="fab fa-html5"></i>
+        <h3>HTML5</h3>
+      </div>
+      <div class="tech-item">
+        <i class="fab fa-css3-alt"></i>
+        <h3>CSS3</h3>
+      </div>
+      <div class="tech-item">
+        <i class="fab fa-js"></i>
+        <h3>JavaScript</h3>
+      </div>
+      <div class="tech-item">
+        <i class="fab fa-php"></i>
+        <h3>PHP</h3>
+      </div>
+      <div class="tech-item">
+        <i class="fab fa-laravel"></i>
+        <h3>Laravel</h3>
+      </div>
+      <div class="tech-item">
+        <i class="fab fa-bootstrap"></i>
+        <h3>Bootstrap</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="why-me">
+    <h2>Why Choose Me?</h2>
+    <ul>
+      <li>1+ year of experience in freelance web development</li>
+      <li>Clean code and responsive design</li>
+      <li>SEO-friendly structure</li>
+      <li>Timely delivery and client-focused workflow</li>
+    </ul>
+  </section>
+
+  <section class="process">
+    <h2>How We'll Work Together</h2>
+    <ol>
+      <li><strong>1. Discuss:</strong> Understand your requirements.</li>
+      <li><strong>2. Design:</strong> Plan layout, UI, and features.</li>
+      <li><strong>3. Develop:</strong> Build and test the website.</li>
+      <li><strong>4. Deliver:</strong> Final deployment and support.</li>
+    </ol>
+  </section>
+
+  <section class="cta">
+    <h2>Ready to Build Something Great?</h2>
+    <a href="index.html#contact" class="btn">Contact Me</a>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 Ghanshyam. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!hamburger.contains(e.target) && !navLinks.contains(e.target)) {
+        navLinks.classList.remove('active');
+      }
+    });
+  </script>
+</body>
+</html>

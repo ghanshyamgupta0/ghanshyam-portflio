@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog Writing Services | Ghanshyam</title>
+  <link rel="stylesheet" href="../css/blog-writing.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">Ghanshyam.</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#projects">Projects</a>
+      <a href="index.html#contact">Contact</a>
+    </div>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <h1>Blog Writing Services</h1>
+    <p>Engaging, SEO-friendly blogs that build trust and boost traffic.</p>
+  </section>
+
+  <section class="services">
+    <h2>What I Offer</h2>
+    <ul>
+      <li>
+        <strong>SEO-Optimized Articles</strong>
+        Write content that ranks and resonates with your target audience while following SEO best practices.
+      </li>
+      <li>
+        <strong>Niche Expertise</strong>
+        Custom blogs in tech, business, lifestyle, and more, tailored to your specific industry needs.
+      </li>
+      <li>
+        <strong>Long-Form Content</strong>
+        In-depth blogs (1000–2500+ words) that provide maximum value and establish authority.
+      </li>
+      <li>
+        <strong>Content Strategy</strong>
+        Comprehensive planning for topics and editorial calendars to maintain consistent publishing.
+      </li>
+      <li>
+        <strong>Consistent Tone</strong>
+        Blogs that perfectly match your brand's voice and resonate with your target audience.
+      </li>
+    </ul>
+  </section>
+
+  <section class="process">
+    <h2>My Blog Writing Process</h2>
+    <div class="process-steps">
+      <div class="step">
+        <i class="fas fa-search"></i>
+        <h3>Research</h3>
+        <p>Deep dive into your topic, competitors, and target audience to gather insights.</p>
+      </div>
+      <div class="step">
+        <i class="fas fa-keyboard"></i>
+        <h3>Writing</h3>
+        <p>Creating engaging, well-structured content that tells your story effectively.</p>
+      </div>
+      <div class="step">
+        <i class="fas fa-chart-line"></i>
+        <h3>Optimization</h3>
+        <p>Implementing SEO best practices and optimizing for search engines.</p>
+      </div>
+      <div class="step">
+        <i class="fas fa-check-double"></i>
+        <h3>Refinement</h3>
+        <p>Polishing the content through thorough editing and proofreading.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="why-me">
+    <h2>Why Work With Me?</h2>
+    <ul>
+      <li>1+ year experience writing blogs for websites and businesses</li>
+      <li>Fast delivery and meticulous attention to detail</li>
+      <li>Proficient in keyword research and topic trends</li>
+      <li>Blogs written to educate, engage, and convert</li>
+      <li>Regular communication and timely updates</li>
+    </ul>
+  </section>
+
+  <section class="cta">
+    <h2>Let's Create Content That Converts</h2>
+    <a href="index.html#contact" class="btn">Get in Touch</a>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 Ghanshyam. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!hamburger.contains(e.target) && !navLinks.contains(e.target)) {
+        navLinks.classList.remove('active');
+      }
+    });
+  </script>
+</body>
+</html>

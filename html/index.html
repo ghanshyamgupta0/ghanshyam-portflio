@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ghanshyam - Freelance Developer & Copywriter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Ghanshyam.</div>
+        <div class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1>Hi, I'm <span class="highlight">Ghanshyam</span></h1>
+            <p class="tagline">Crafting Digital Experiences & Compelling Content</p>
+            <p class="hero-description">I transform ideas into engaging websites and powerful content that drives results. Let's create something amazing together!</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary">View My Work</a>
+                <a href="#contact" class="btn secondary">Let's Talk</a>
+            </div>
+        </div>
+        <div class="hero-image" data-aos="fade-left">
+            <img src="../upload/profile-image.jpg" alt="Ghanshyam Gupta">
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2 class="section-title" data-aos="fade-up">My Services</h2>
+        <div class="services-grid">
+            <a href="web-development.html" style="text-decoration: none; color: inherit;">
+                <div class="service-card" data-aos="fade-up">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Building responsive, modern websites using PHP, Laravel, and other cutting-edge technologies.</p>
+                </div>
+            </a>  
+            <a href="copywriting.html" style="text-decoration: none; color: inherit;">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-pen-fancy"></i>
+                    <h3>Copywriting</h3>
+                    <p>Creating compelling content that converts visitors into customers and tells your brand story.</p>
+                </div>
+            </a>
+            <a href="blogwriting.html" style="text-decoration: none; color: inherit;">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-blog"></i>
+                    <h3>Blog Writing</h3>
+                    <p>Engaging blog posts that establish authority and drive organic traffic to your website.</p>
+                </div>
+            </a>
+            <a href="responsive.html" style="text-decoration: none; color: inherit;">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Responsive Design</h3>
+                    <p>Creating beautiful, mobile-friendly websites that work perfectly on all devices.</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content" data-aos="fade-right">
+            <h2 class="section-title">About Me</h2>
+            <p>I'm a passionate web developer and content creator with expertise in PHP, Laravel, and modern web technologies. With a keen eye for detail and a love for creating engaging user experiences, I help businesses establish their digital presence.</p>
+            <div class="skills">
+                <div class="skill">
+                    <span>PHP</span>
+                    <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
+                </div>
+                <div class="skill">
+                    <span>Laravel</span>
+                    <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+                </div>
+                <div class="skill">
+                    <span>Copywriting</span>
+                    <div class="progress-bar"><div class="progress" style="width: 95%"></div></div>
+                </div>
+            </div>
+        </div>
+        <div class="about-image" data-aos="fade-left">
+            <img src="../upload/about-image.jpg" alt="About Me">
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card" data-aos="fade-up">
+                <img src="../upload/task-manager.jpg" alt="Task Manager App">
+                <div class="project-info">
+                    <h3>Task Manager App</h3>
+                    <p>A modern task management application built with Laravel and Vue.js. Features include task creation, categorization, priority levels, and real-time updates.</p>
+                    <div class="project-tech">
+                        <span>Laravel</span>
+                        <span>Vue.js</span>
+                        <span>MySQL</span>
+                    </div>
+                    <a href="task-manager.html" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                <img src="../upload/blog-platform.webp" alt="Blog Platform">
+                <div class="project-info">
+                    <h3>Blog Platform</h3>
+                    <p>A feature-rich blog platform with content management, user authentication, and SEO optimization.</p>
+                    <div class="project-tech">
+                        <span>Wordpress</span>
+                    </div>
+                    <a href="https://techpulse26.wordpress.com/" class="btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title" data-aos="fade-up">Let's Work Together</h2>
+        <div class="contact-container">
+            <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST" data-aos="fade-right">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+            <div class="contact-info" data-aos="fade-left">
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>ghanshyamgupta0679@gmail.com</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+977 9806610679</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/ghanshyam-gupta-67660b315/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/ghanshyamgupta0"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Ghanshyam Gupta. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
+
